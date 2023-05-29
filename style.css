@@ -60,9 +60,8 @@ body {
   align-items: center;
   flex-direction: column;
 
-  border: 1px solid red;
+  border: 1px solid green;
   width: 400px;
-  height: 800px;
   padding: 10px;
 }
 
@@ -73,5 +72,10 @@ body {
 .card-rating {
   width: 100%;
   text-align: left;
+  font-size: 20px;
+  color: yellowgreen;
+}
+
+.card-overview {
   font-size: 20px;
 }
