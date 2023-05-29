@@ -1,6 +1,7 @@
 const gridContainer = document.querySelector(".grid-container");
 const searchForm = document.querySelector(".search-group");
 
+// 검색
 const search = () => {
   searchForm.addEventListener("submit", (event) => {
     event.preventDefault();
